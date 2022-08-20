@@ -1,5 +1,5 @@
-function number(num1, num2, num3, num4, num5) {
-    return num1 * num2 * num3 * num4 * num5
+function number(num1, num2) {
+    return "La Multiplicacion es: " + num1 * num2
 }
-const result = number(8, 5, 7, 10, 33)
+const result = number(8, 5)
 console.log(result);
