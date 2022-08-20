@@ -1,3 +1,5 @@
-const name ="    Oswaldo     ";
-const message = "hola mi nombre es " + name.trim() + " y tiene letras ";
-console.log(message); // Logs 7
+const personName = "      Oswaldo      "
+const sinSeparaciones = personName.trim()
+const nameLength = sinSeparaciones.length
+
+console.log("hola mi nombre es " + sinSeparaciones + " y tiene " + nameLength + " letras") // Logs 7
