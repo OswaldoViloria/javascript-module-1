@@ -5,9 +5,15 @@
   If Daniel is a mentor, print out "Hi, I'm Daniel, I'm a mentor."
   If Daniel is a student, print out "Hi, I'm Daniel, I'm a student."
 */
+let name = "Daniel";
+let danielsRole = "mentor";
 
-var name = "Daniel";
-var danielsRole = "mentor";
+if (name === "Daniel" && danielsRole === "mentor") {
+  console.log("Hi, I'm Daniel, I'm a mentor.");
+} else {
+  console.log("Hi, I'm Daniel, I'm a student.");
+}
+
 
 /* 
 EXPECTED RESULT
