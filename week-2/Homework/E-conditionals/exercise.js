@@ -8,10 +8,10 @@
 let name = "Daniel";
 let danielsRole = "mentor";
 
-if (name === "Daniel" && danielsRole === "mentor") {
-  console.log("Hi, I'm Daniel, I'm a mentor.");
-} else {
-  console.log("Hi, I'm Daniel, I'm a student.");
+if (danielsRole === "mentor") {
+  console.log(`Hi, I'm ${name}, I'm a ${danielsRole}.`);
+} else if(danielsRole === "student") {
+  console.log(`Hi, I'm ${name}, I'm a ${danielsRole}.`);
 }
 
 
